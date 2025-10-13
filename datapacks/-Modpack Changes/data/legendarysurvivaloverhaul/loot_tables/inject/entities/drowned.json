@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "chance": 0.01,
+          "condition": "minecraft:random_chance_with_looting",
+          "looting_multiplier": 0.005
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "legendarysurvivaloverhaul:water_purifier"
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "legendarysurvivaloverhaul:inject/entities/drowned"
+}

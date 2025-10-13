@@ -1,0 +1,14 @@
+[
+  {
+    "properties": {
+      "powered": "true"
+    },
+    "temperature": 3
+  },
+  {
+    "properties": {
+      "powered": "false"
+    },
+    "temperature": 0.0
+  }
+]

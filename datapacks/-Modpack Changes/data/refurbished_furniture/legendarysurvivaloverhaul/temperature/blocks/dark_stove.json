@@ -1,0 +1,30 @@
+[
+  {
+    "properties": {
+      "powered": "true",
+      "lit": "true",
+      "open": "false"
+    },
+    "temperature": 6
+  },
+  {
+    "properties": {
+      "powered": "true",
+      "lit": "true",
+      "open": "true"
+    },
+    "temperature": 20
+  },
+  {
+    "properties": {
+      "powered": "false"
+    },
+    "temperature": 0.0
+  },
+  {
+    "properties": {
+      "lit": "false"
+    },
+    "temperature": 0.0
+  }
+]

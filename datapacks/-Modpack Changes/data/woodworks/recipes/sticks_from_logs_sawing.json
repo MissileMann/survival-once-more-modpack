@@ -1,0 +1,26 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "blueprint:and",
+          "values": [
+            {
+              "type": "woodworks:config",
+              "value": "sawmill"
+            }
+          ]
+        }
+      ],
+      "recipe": {
+        "type": "woodworks:sawmill",
+        "count": 8,
+        "ingredient": {
+          "tag": "minecraft:logs"
+        },
+        "result": "minecraft:stick"
+      }
+    }
+  ]
+}
