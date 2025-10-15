@@ -312,6 +312,8 @@ craftingTable.addShapeless("vanilla_chest",<item:minecraft:chest>,[<tag:items:bl
 
 craftingTable.addShapeless("vanilla_trapped_chest",<item:minecraft:trapped_chest>,[<tag:items:blueprint:wooden_trapped_chests>]);
 
+craftingTable.addShapeless("easy_silver_plate",<item:hot_iron:silver_plate>, [<item:caverns_and_chasms:silver_ingot>,<item:hot_iron:smithing_hammer>.anyDamage().transformDamage()]);
+
 //add stuff before this! ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 var boards = [

@@ -62,4 +62,18 @@ ItemEvents.tooltip(event => {
             text.add(1, Text.of(sanityBlockTextLit).green())
         })
     })
+
+    let silverParts = [
+        'hot_iron:silver_axe_head',
+        'hot_iron:silver_hoe_head',
+        'hot_iron:silver_pickaxe_head',
+        'hot_iron:silver_shovel_head',
+        'hot_iron:silver_sword_blade'
+    ]
+
+    silverParts.forEach(part => {
+        event.add(part,Text.of(Text.of('Polish using a ').gray()).append(Text.of('Grindstone').gold()))
+    })
+
+    event.add('#minecraft:logs',Text.of('Requires an Axe, Saw, or Sawmill to turn into Planks or Sticks').gray())
 })
